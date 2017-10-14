@@ -27,15 +27,17 @@ void testApp::setup()
 
 	/// ram setup
 	// ------------------
-	ramInitialize(10000);
+	Initialize(10000);
 
 	
-	/// register myScene to ramSceneManager
-	/// - EmptyScene::update, draw, and other method will be triggerd by ramSceneManager
-	/// - the scene added to ramSceneManager will appeard on GUI automaticaly
-	ramSceneManager& sceneManager = ramSceneManager::instance();
-	sceneManager.addScene(&hakoniwaMagPendulum);
-    sceneManager.addScene(&hakoVisMagPendulum);
+	/// register myScene to SceneManager
+	/// - EmptyScene::update, draw, and other method will be triggerd by SceneManager
+	/// - the scene added to SceneManager will appeard on GUI automaticaly
+	SceneManager& sceneManager = SceneManager::instance();
+    hakoniwaMagPendulum = ofPtr<dpHakoniwaMagnetPendulum>(new dpHakoniwaMagnetPendulum);
+    hakoVisMagPendulum = ofPtr<dpHakoVisMagnetPendulum>(new dpHakoVisMagnetPendulum);
+	sceneManager.addScene(hakoniwaMagPendulum);
+    sceneManager.addScene(hakoVisMagPendulum);
 }
 
 //--------------------------------------------------------------
@@ -52,41 +54,41 @@ void testApp::draw()
 
 
 
-#pragma mark - ram methods
+#pragma mark -  methods
 //--------------------------------------------------------------
-void testApp::drawActor(const ramActor &actor)
+void testApp::drawActor(const Actor &actor)
 {
 
 }
 
 //--------------------------------------------------------------
-void testApp::drawRigid(const ramRigidBody &rigid)
+void testApp::drawRigid(const RigidBody &rigid)
 {
 
 }
 
 
-#pragma mark - ram Events
+#pragma mark -  Events
 //--------------------------------------------------------------
-void testApp::onActorSetup(const ramActor &actor)
-{
-	
-}
-
-//--------------------------------------------------------------
-void testApp::onActorExit(const ramActor &actor)
+void testApp::onActorSetup(const Actor &actor)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onRigidSetup(const ramRigidBody &rigid)
+void testApp::onActorExit(const Actor &actor)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onRigidExit(const ramRigidBody &rigid)
+void testApp::onRigidSetup(const RigidBody &rigid)
+{
+	
+}
+
+//--------------------------------------------------------------
+void testApp::onRigidExit(const RigidBody &rigid)
 {
 	
 }

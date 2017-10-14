@@ -29,8 +29,8 @@ void testApp::setup()
 
 	/// ram setup
 	// ------------------
-	ramInitialize(10000);
-	ramEnableShowActors(false);
+	Initialize(10000);
+	EnableShowActors(false);
 }
 
 //--------------------------------------------------------------
@@ -49,42 +49,42 @@ void testApp::draw()
 
 #pragma mark - ram methods
 //--------------------------------------------------------------
-void testApp::drawActor(const ramActor &actor)
+void testApp::drawActor(const Actor &actor)
 {
-	ramNode n1 = actor.getNode(ramActor::JOINT_HEAD);
-	ramNode n2 = actor.getNode(ramActor::JOINT_RIGHT_HAND);
-	ramNode n3 = actor.getNode(ramActor::JOINT_LEFT_HAND);
-	ramNode n4 = actor.getNode(ramActor::JOINT_RIGHT_TOE);
-	ramNode n5 = actor.getNode(ramActor::JOINT_LEFT_TOE);
+	Node n1 = actor.getNode(Actor::JOINT_HEAD);
+	Node n2 = actor.getNode(Actor::JOINT_RIGHT_HAND);
+	Node n3 = actor.getNode(Actor::JOINT_LEFT_HAND);
+	Node n4 = actor.getNode(Actor::JOINT_RIGHT_TOE);
+	Node n5 = actor.getNode(Actor::JOINT_LEFT_TOE);
 
 	ofPushStyle();
 	{
 		// draw line betweem two nodes
 		ofNoFill();
-		ofSetColor( ramColor::RED_LIGHT );
+		ofSetColor( Color::RED_LIGHT );
 		ofSetLineWidth( 3 );
 		ofLine( n2, n3 );
 
 
 		// draw triangle using three nodes
 		ofFill();
-		ofSetColor( ramColor::BLUE_LIGHT );
+		ofSetColor( Color::BLUE_LIGHT );
 		ofSetLineWidth( 3 );
 		ofTriangle( n1, n4, n5 );
 
 
-		// ramNode::beginTransform() ~ endTransform()
+		// Node::beginTransform() ~ endTransform()
 		n1.beginTransform();
 		{
 			// draw cube at JOINT_HEAD
 			ofNoFill();
-			ofSetColor( ramColor::YELLOW_DEEP );
+			ofSetColor( Color::YELLOW_DEEP );
 			ofSetLineWidth( 3 );
 			ofDrawBox( 20 );
 
 			// draw cone at JOINT_HEAD
 			ofNoFill();
-			ofSetColor( ramColor::GRAY );
+			ofSetColor( Color::GRAY );
 			ofSetLineWidth( 2 );
 			ofDrawCone(10, 40);
 		}
@@ -93,12 +93,12 @@ void testApp::drawActor(const ramActor &actor)
 
 		// draw plane using several nodes
 		ofNoFill();
-		ofSetColor( ramColor::YELLOW_LIGHT );
+		ofSetColor( Color::YELLOW_LIGHT );
 		ofSetLineWidth( 2 );
 		ofPushMatrix();
 		{
 			ofScale( 3, 3, 3 );
-			ramStripe( n1, n2, n3, n4, n5 );
+			Stripe( n1, n2, n3, n4, n5 );
 		}
 		ofPopMatrix();
 	}
@@ -106,7 +106,7 @@ void testApp::drawActor(const ramActor &actor)
 }
 
 //--------------------------------------------------------------
-void testApp::drawRigid(const ramRigidBody &rigid)
+void testApp::drawRigid(const RigidBody &rigid)
 {
 
 }
@@ -114,25 +114,25 @@ void testApp::drawRigid(const ramRigidBody &rigid)
 
 #pragma mark - ram Events
 //--------------------------------------------------------------
-void testApp::onActorSetup(const ramActor &actor)
+void testApp::onActorSetup(const Actor &actor)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onActorExit(const ramActor &actor)
+void testApp::onActorExit(const Actor &actor)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onRigidSetup(const ramRigidBody &rigid)
+void testApp::onRigidSetup(const RigidBody &rigid)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onRigidExit(const ramRigidBody &rigid)
+void testApp::onRigidExit(const RigidBody &rigid)
 {
 	
 }

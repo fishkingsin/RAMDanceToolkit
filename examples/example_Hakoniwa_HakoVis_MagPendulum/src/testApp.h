@@ -22,8 +22,8 @@
 #include "dpHakoniwaMagnetPendulum.h"
 #include "dpHakoVisMagnetPendulum.h"
 
-
-class testApp : public ramBaseApp
+using namespace rdtk;
+class testApp : public BaseApp
 {
 public:
 
@@ -45,13 +45,13 @@ public:
 
 	// ram methods
 	// ------------------------
-	void drawActor(const ramActor &actor);
-	void drawRigid(const ramRigidBody &rigid);
-	void onActorSetup(const ramActor &actor);
-	void onActorExit(const ramActor &actor);
-	void onRigidSetup(const ramRigidBody &rigid);
-	void onRigidExit(const ramRigidBody &rigid);
+	void drawActor(const Actor &actor);
+	void drawRigid(const RigidBody &rigid);
+	void onActorSetup(const Actor &actor);
+	void onActorExit(const Actor &actor);
+	void onRigidSetup(const RigidBody &rigid);
+	void onRigidExit(const RigidBody &rigid);
     
-    dpHakoniwaMagnetPendulum hakoniwaMagPendulum;
-    dpHakoVisMagnetPendulum hakoVisMagPendulum;
+    ofPtr <dpHakoniwaMagnetPendulum> hakoniwaMagPendulum;
+    ofPtr <dpHakoVisMagnetPendulum> hakoVisMagPendulum;
 };

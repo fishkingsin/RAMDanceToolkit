@@ -13,8 +13,8 @@
 
 #include "ramMain.h"
 #include "ramMotionExtractor.h"
-
-class dpHakoniwaMagnetPendulum : public ramBaseScene {
+using namespace rdtk;
+class dpHakoniwaMagnetPendulum : public BaseScene {
     
 public:
     
@@ -25,7 +25,7 @@ public:
     void sendOsc();
     void update();
     void draw();
-    void drawActor(const ramActor& actor);
+    void drawActor(const Actor& actor);
     void guiEvent(ofxUIEventArgs &e);
     void onEnabled();
     void onDisabled();
@@ -35,7 +35,7 @@ private:
 	float mDistanceThreshold;
     bool bOn[NMAGNETS];
     
-    ramMotionExtractor	mMotionExtractor;
+    MotionExtractor	mMotionExtractor;
     ofxOscSender mSenderOnOff;
 
     static const ofColor MAIN_COLOR;
