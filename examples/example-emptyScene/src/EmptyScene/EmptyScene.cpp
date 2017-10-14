@@ -19,10 +19,10 @@
 
 void EmptyScene::setupControlPanel()
 {
-    ramGetGUI().addSlider("Slider", 0.0, 10.0, &mySlider);
-    ramGetGUI().addToggle("Toggle", &myToggle);
+    GetGUI().addSlider("Slider", 0.0, 10.0, &mySlider);
+    GetGUI().addToggle("Toggle", &myToggle);
     
-    ofAddListener(ramGetGUI().getCurrentUIContext()->newGUIEvent, this, &EmptyScene::onPanelChanged);
+    ofAddListener(GetGUI().getCurrentUIContext()->newGUIEvent, this, &EmptyScene::onPanelChanged);
 }
 
 void EmptyScene::setup()
@@ -40,9 +40,9 @@ void EmptyScene::draw()
     ofColor color( myToggle ? 150 : 50 );
     ofSetColor( color );
     
-    ramBeginCamera();
+    BeginCamera();
     ofDrawBitmapString( "Hello, "+getName()+ "!" + " Slider value is " + ofToString(mySlider), ofVec3f(0,200,0) );
-    ramEndCamera();
+    EndCamera();
 }
 
 void EmptyScene::onPanelChanged(ofxUIEventArgs &e)
