@@ -26,12 +26,13 @@ void testApp::setup()
 	ofSetVerticalSync(true);
 
 
-	/// ram setup
+	///  setup
 	// ------------------
-	ramInitialize(10000);
+	Initialize(10000);
 
-	ramSceneManager &sceneManager = ramSceneManager::instance();
-	sceneManager.addScene(&mover);
+	SceneManager &sceneManager = SceneManager::instance();
+    mover = ofPtr<CameraMover>(new CameraMover);
+	sceneManager.addScene(mover);
 }
 
 //--------------------------------------------------------------
@@ -48,42 +49,42 @@ void testApp::draw()
 
 
 
-#pragma mark - ram methods
+#pragma mark -  methods
 //--------------------------------------------------------------
-void testApp::drawActor(const ramActor &actor)
+void testApp::drawActor(const Actor &actor)
 {
-	ofSetColor(ramColor::GREEN_LIGHT);
-	ramDrawBasicActor(actor);
+	ofSetColor(Color::GREEN_LIGHT);
+	DrawBasicActor(actor);
 }
 
 //--------------------------------------------------------------
-void testApp::drawRigid(const ramRigidBody &rigid)
+void testApp::drawRigid(const RigidBody &rigid)
 {
 
 }
 
 
-#pragma mark - ram Events
+#pragma mark -  Events
 //--------------------------------------------------------------
-void testApp::onActorSetup(const ramActor &actor)
-{
-	
-}
-
-//--------------------------------------------------------------
-void testApp::onActorExit(const ramActor &actor)
+void testApp::onActorSetup(const Actor &actor)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onRigidSetup(const ramRigidBody &rigid)
+void testApp::onActorExit(const Actor &actor)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onRigidExit(const ramRigidBody &rigid)
+void testApp::onRigidSetup(const RigidBody &rigid)
+{
+	
+}
+
+//--------------------------------------------------------------
+void testApp::onRigidExit(const RigidBody &rigid)
 {
 	
 }

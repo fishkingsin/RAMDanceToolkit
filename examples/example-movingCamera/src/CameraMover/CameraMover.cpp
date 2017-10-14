@@ -72,7 +72,7 @@
 
 void CameraMover::setupControlPanel()
 {
-    mPanel = ramGetGUI().getCurrentUIContext();
+    mPanel = GetGUI().getCurrentUIContext();
     refreshPanel(mPanel);
     
     ofAddListener(mPanel->newGUIEvent, this, &CameraMover::onTriggered);
@@ -88,7 +88,7 @@ void CameraMover::setup(string path)
 
 void CameraMover::setup()
 {
-    mXmlPath = ramToResourcePath("Settings/camera/cam.moving.xml");
+    mXmlPath = ToResourcePath("Settings/camera/cam.moving.xml");
     reloadSettings();
 }
 
@@ -101,10 +101,10 @@ void CameraMover::draw()
     
     float progress = (ofGetElapsedTimef()-mCurSetting.moving_start_time) / (mCurSetting.moving_duration);
     
-    ramBeginCamera();
+    BeginCamera();
     
     // linear movement
-    if ( mCurSetting.moving_type == ramCameraSettings::MOVING_LINEAR )
+    if ( mCurSetting.moving_type == CameraSettings::MOVING_LINEAR )
     {
         ofVec3f &from = mCurSetting.moving_from;
         ofVec3f &to = mCurSetting.moving_to;
@@ -161,7 +161,7 @@ void CameraMover::draw()
         }
         else
         {
-            ramBeginCamera();
+            BeginCamera();
             
             axisNode.draw();
             satelliteNode.draw();
@@ -179,17 +179,17 @@ void CameraMover::draw()
             }
             ofPopStyle();
             
-            ramEndCamera();
+            EndCamera();
         }
     }
     
-    ramEndCamera();
+    EndCamera();
 }
 
 void CameraMover::reloadSettings()
 {
     mSettingXml.loadFile(mXmlPath);
-    mSettings = ramCameraSettings::loadSettings(mSettingXml);
+    mSettings = CameraSettings::loadSettings(mSettingXml);
 }
 
 void CameraMover::refreshPanel(ofxUICanvas *panel)
@@ -232,7 +232,7 @@ void CameraMover::onTriggered(ofxUIEventArgs &e)
     {
         for (int i=0; i<mSettings.size(); i++)
         {
-            ramCameraSettings &setting = mSettings.at(i);
+            CameraSettings &setting = mSettings.at(i);
             
             if(name == setting.name)
             {

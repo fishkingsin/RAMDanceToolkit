@@ -18,8 +18,8 @@
 #pragma once
 #include "ramBaseScene.h"
 #include "ofxXmlSettings.h"
-
-class CameraMover : public ramBaseScene
+using namespace rdtk;
+class CameraMover : public BaseScene
 {
 public:
 
@@ -37,8 +37,8 @@ public:
 private:
 
     ofxXmlSettings mSettingXml;
-	vector<ramCameraSettings> mSettings;
-	ramCameraSettings mCurSetting;
+	vector<CameraSettings> mSettings;
+	CameraSettings mCurSetting;
 	bool bCameraOn;
 	
 	ofxUICanvas *mPanel;
