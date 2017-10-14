@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0546D1A38E13BD319CC9755B /* OscReceivedElements.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3AA0D4FAA89D0F8A0E545 /* OscReceivedElements.cpp */; };
+		1A9C3CCF1F920F45002FF0AA /* libram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A9C3CC81F920F29002FF0AA /* libram.a */; };
 		29D734F0DDECC8C5978185D7 /* testApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00A1BFCBB38848AD0E0C8539 /* testApp.cpp */; };
 		467F9A0E702D29A7BCBDB202 /* CameraMover.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DA359984607D5D593AFC65BC /* CameraMover.cpp */; };
 		4ADB88E2FB52E76A471065DE /* ofxOscParameterSync.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */; };
@@ -30,11 +31,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1A9C3CBD1F91F0B0002FF0AA /* PBXContainerItemProxy */ = {
+		1A9C3CC71F920F29002FF0AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 1A9C3CB91F91F0B0002FF0AA /* RAMDanceToolkit.xcodeproj */;
+			containerPortal = 1A9C3CC31F920F29002FF0AA /* RAMDanceToolkit.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 60B90A8B1644E00900AF2156;
+			remoteInfo = RAMDanceToolkit;
+		};
+		1A9C3CCB1F920F40002FF0AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A9C3CC31F920F29002FF0AA /* RAMDanceToolkit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 60B90A8A1644E00900AF2156;
 			remoteInfo = RAMDanceToolkit;
 		};
 		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
@@ -71,7 +79,7 @@
 		01DCC0911400F9ACF5B65578 /* ofxXmlSettings.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxXmlSettings.h; path = ../../../addons/ofxXmlSettings/src/ofxXmlSettings.h; sourceTree = SOURCE_ROOT; };
 		029684CF678F70F6D3537A29 /* OscOutboundPacketStream.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscOutboundPacketStream.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscOutboundPacketStream.h; sourceTree = SOURCE_ROOT; };
 		0AED834CE4DEC5260AF302A2 /* ofxOscParameterSync.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxOscParameterSync.cpp; path = ../../../addons/ofxOsc/src/ofxOscParameterSync.cpp; sourceTree = SOURCE_ROOT; };
-		1A9C3CB91F91F0B0002FF0AA /* RAMDanceToolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RAMDanceToolkit.xcodeproj; path = ../../../libs/project/osx/RAMDanceToolkit.xcodeproj; sourceTree = "<group>"; };
+		1A9C3CC31F920F29002FF0AA /* RAMDanceToolkit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RAMDanceToolkit.xcodeproj; path = ../../../libs/project/osx/RAMDanceToolkit.xcodeproj; sourceTree = "<group>"; };
 		20F35AFADAF0068B067E713F /* OscReceivedElements.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = OscReceivedElements.h; path = ../../../addons/ofxOsc/libs/oscpack/src/osc/OscReceivedElements.h; sourceTree = SOURCE_ROOT; };
 		23640F57DF6C4BB6BFC5DA4C /* PacketListener.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = PacketListener.h; path = ../../../addons/ofxOsc/libs/oscpack/src/ip/PacketListener.h; sourceTree = SOURCE_ROOT; };
 		2B40EDA85BEB63E46785BC29 /* tinyxml.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = tinyxml.cpp; path = ../../../addons/ofxXmlSettings/libs/tinyxml.cpp; sourceTree = SOURCE_ROOT; };
@@ -122,6 +130,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A9C3CCF1F920F45002FF0AA /* libram.a in Frameworks */,
 				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,20 +138,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A9C3CB81F91F0A1002FF0AA /* ram */ = {
+		1A9C3CC21F920F1B002FF0AA /* ram */ = {
 			isa = PBXGroup;
 			children = (
-				1A9C3CB91F91F0B0002FF0AA /* RAMDanceToolkit.xcodeproj */,
+				1A9C3CC31F920F29002FF0AA /* RAMDanceToolkit.xcodeproj */,
 			);
-			path = ram;
+			name = ram;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
-		1A9C3CBA1F91F0B0002FF0AA /* Products */ = {
+		1A9C3CC41F920F29002FF0AA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A9C3CBE1F91F0B0002FF0AA /* libram.a */,
+				1A9C3CC81F920F29002FF0AA /* libram.a */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		1A9C3CCE1F920F45002FF0AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		1F4FB5C423662B96ADFDCC0B /* ofxXmlSettings */ = {
@@ -282,7 +299,7 @@
 		E4B69B4A0A3A1720003C02F2 = {
 			isa = PBXGroup;
 			children = (
-				1A9C3CB81F91F0A1002FF0AA /* ram */,
+				1A9C3CC21F920F1B002FF0AA /* ram */,
 				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
 				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
 				E4B69E1C0A3A1BDC003C02F2 /* src */,
@@ -290,6 +307,7 @@
 				BB4B014C10F69532006C3DED /* addons */,
 				6948EE371B920CB800B5AC1A /* local_addons */,
 				E4B69B5B0A3A1756003C02F2 /* example-movingCameraDebug.app */,
+				1A9C3CCE1F920F45002FF0AA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -351,6 +369,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				1A9C3CCC1F920F40002FF0AA /* PBXTargetDependency */,
 				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
 			);
 			name = "example-movingCamera";
@@ -385,8 +404,8 @@
 					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
 				},
 				{
-					ProductGroup = 1A9C3CBA1F91F0B0002FF0AA /* Products */;
-					ProjectRef = 1A9C3CB91F91F0B0002FF0AA /* RAMDanceToolkit.xcodeproj */;
+					ProductGroup = 1A9C3CC41F920F29002FF0AA /* Products */;
+					ProjectRef = 1A9C3CC31F920F29002FF0AA /* RAMDanceToolkit.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -397,11 +416,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		1A9C3CBE1F91F0B0002FF0AA /* libram.a */ = {
+		1A9C3CC81F920F29002FF0AA /* libram.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libram.a;
-			remoteRef = 1A9C3CBD1F91F0B0002FF0AA /* PBXContainerItemProxy */;
+			remoteRef = 1A9C3CC71F920F29002FF0AA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
@@ -459,6 +478,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		1A9C3CCC1F920F40002FF0AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAMDanceToolkit;
+			targetProxy = 1A9C3CCB1F920F40002FF0AA /* PBXContainerItemProxy */;
+		};
 		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = openFrameworks;
@@ -500,6 +524,7 @@
 					../../../addons/ofxOsc/src,
 					../../../addons/ofxXmlSettings/libs,
 					../../../addons/ofxXmlSettings/src,
+					"$(RAM_HEADER_SEARCH_PATHS)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
@@ -507,6 +532,7 @@
 					"-D__MACOSX_CORE__",
 					"-mtune=native",
 				);
+				RAM_HEADER_SEARCH_PATHS = "../../libs/ram/** $(OF_PATH)/addons/ofxOsc/** $(OF_PATH)/addons/ofxXmlSettings/** ../../addons/ofxUI/src/** ../../addons/ofxUITabbedCanvas/** ../../addons/ofxInteractivePrimitives/src/** ../../addons/ofxBt/libs/bullet/include/bullet ../../addons/ofxBt/src ../../addons/ofxNodeArray/src ../../addons/ofxCv/src $(OF_PATH)/addons/ofxGui/** ../../addons/ofxCv/libs/ofxCv/include/ ../../addons/ofxCv/libs/CLD/include/CLD/** $(OF_PATH)/addons/ofxOpenCV/src $(OF_PATH)/addons/ofxOpenCV/libs/opencv/include/** ../../addons/ofxDelaunay/src ../../addons/ofxDelaunay/libs/Delaunay/** ../../addons/ofxQuadWarp/src ../../addons/ramFloorQuadWarper ../../addons/ofxUITabbedCanvas ../../libs/dp/** ../../../addons/ofxImGui/src/** ../../../addons/ofxImGui/libs/**";
 				SDKROOT = macosx;
 			};
 			name = Debug;
@@ -545,12 +571,14 @@
 					../../../addons/ofxOsc/src,
 					../../../addons/ofxXmlSettings/libs,
 					../../../addons/ofxXmlSettings/src,
+					"$(RAM_HEADER_SEARCH_PATHS)",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_CPLUSPLUSFLAGS = (
 					"-D__MACOSX_CORE__",
 					"-mtune=native",
 				);
+				RAM_HEADER_SEARCH_PATHS = "../../libs/ram/** $(OF_PATH)/addons/ofxOsc/** $(OF_PATH)/addons/ofxXmlSettings/** ../../addons/ofxUI/src/** ../../addons/ofxUITabbedCanvas/** ../../addons/ofxInteractivePrimitives/src/** ../../addons/ofxBt/libs/bullet/include/bullet ../../addons/ofxBt/src ../../addons/ofxNodeArray/src ../../addons/ofxCv/src $(OF_PATH)/addons/ofxGui/** ../../addons/ofxCv/libs/ofxCv/include/ ../../addons/ofxCv/libs/CLD/include/CLD/** $(OF_PATH)/addons/ofxOpenCV/src $(OF_PATH)/addons/ofxOpenCV/libs/opencv/include/** ../../addons/ofxDelaunay/src ../../addons/ofxDelaunay/libs/Delaunay/** ../../addons/ofxQuadWarp/src ../../addons/ramFloorQuadWarper ../../addons/ofxUITabbedCanvas ../../libs/dp/** ../../../addons/ofxImGui/src/** ../../../addons/ofxImGui/libs/**";
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -583,6 +611,7 @@
 					../../../addons/ofxOsc/src,
 					../../../addons/ofxXmlSettings/libs,
 					../../../addons/ofxXmlSettings/src,
+					"$(RAM_HEADER_SEARCH_PATHS)",
 				);
 				ICON = "$(ICON_NAME_DEBUG)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -590,6 +619,7 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				RAM_HEADER_SEARCH_PATHS = "../../libs/ram/** $(OF_PATH)/addons/ofxOsc/** $(OF_PATH)/addons/ofxXmlSettings/** ../../addons/ofxUI/src/** ../../addons/ofxUITabbedCanvas/** ../../addons/ofxInteractivePrimitives/src/** ../../addons/ofxBt/libs/bullet/include/bullet ../../addons/ofxBt/src ../../addons/ofxNodeArray/src ../../addons/ofxCv/src $(OF_PATH)/addons/ofxGui/** ../../addons/ofxCv/libs/ofxCv/include/ ../../addons/ofxCv/libs/CLD/include/CLD/** $(OF_PATH)/addons/ofxOpenCV/src $(OF_PATH)/addons/ofxOpenCV/libs/opencv/include/** ../../addons/ofxDelaunay/src ../../addons/ofxDelaunay/libs/Delaunay/** ../../addons/ofxQuadWarp/src ../../addons/ramFloorQuadWarper ../../addons/ofxUITabbedCanvas ../../libs/dp/** ../../../addons/ofxImGui/src/** ../../../addons/ofxImGui/libs/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -621,6 +651,7 @@
 					../../../addons/ofxOsc/src,
 					../../../addons/ofxXmlSettings/libs,
 					../../../addons/ofxXmlSettings/src,
+					"$(RAM_HEADER_SEARCH_PATHS)",
 				);
 				ICON = "$(ICON_NAME_RELEASE)";
 				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
@@ -628,6 +659,7 @@
 				INSTALL_PATH = /Applications;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				RAM_HEADER_SEARCH_PATHS = "../../libs/ram/** $(OF_PATH)/addons/ofxOsc/** $(OF_PATH)/addons/ofxXmlSettings/** ../../addons/ofxUI/src/** ../../addons/ofxUITabbedCanvas/** ../../addons/ofxInteractivePrimitives/src/** ../../addons/ofxBt/libs/bullet/include/bullet ../../addons/ofxBt/src ../../addons/ofxNodeArray/src ../../addons/ofxCv/src $(OF_PATH)/addons/ofxGui/** ../../addons/ofxCv/libs/ofxCv/include/ ../../addons/ofxCv/libs/CLD/include/CLD/** $(OF_PATH)/addons/ofxOpenCV/src $(OF_PATH)/addons/ofxOpenCV/libs/opencv/include/** ../../addons/ofxDelaunay/src ../../addons/ofxDelaunay/libs/Delaunay/** ../../addons/ofxQuadWarp/src ../../addons/ramFloorQuadWarper ../../addons/ofxUITabbedCanvas ../../libs/dp/** ../../../addons/ofxImGui/src/** ../../../addons/ofxImGui/libs/**";
 				WRAPPER_EXTENSION = app;
 				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
 			};
