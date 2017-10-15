@@ -17,110 +17,110 @@
 
 #include "testApp.h"
 
-//// encode ramSession to tsv, decode tsv to ramSession
-//ramTSVCoder coder;
-//ramSession session;
-//
-//// managing sessions dynamically
-//ramFilterEach<ramSession> sessions;
+// encode Session to tsv, decode tsv to Session
+TSVCoder coder;
+Session session;
+
+// managing sessions dynamically
+FilterEach<Session> sessions;
 
 
 #pragma mark - oF methods
 //--------------------------------------------------------------
 void testApp::setup()
 {
-	//ofSetFrameRate(60);
-	//ofSetVerticalSync(true);
-	//ofBackground(ramColor::WHITE);
+	ofSetFrameRate(60);
+	ofSetVerticalSync(true);
+	ofBackground(Color::WHITE);
 
-	///// ram setup
-	//// ------------------
-	//ramInitialize(10000);
+	/// ram setup
+	// ------------------
+	Initialize(10000);
 }
 
 //--------------------------------------------------------------
 void testApp::update()
 {
-	///// update sessions with all node arrays
-	//// ------------------
-	//sessions.update(getAllNodeArrays());
-	//
-	//
-	///// update only playhead, it is used for session which is aimed at load tsv and play
-	//// ------------------
-	//session.updatePlayhead();
+	/// update sessions with all node arrays
+	// ------------------
+	sessions.update(getAllNodeArrays());
+	
+	
+	/// update only playhead, it is used for session which is aimed at load tsv and play
+	// ------------------
+	session.updatePlayhead();
 }
 
 //--------------------------------------------------------------
 void testApp::draw()
 {
 	
-	///// draw recorded session if it's playing
-	//// ------------------
-	//for(int i=0; i<sessions.getNumFilters(); i++)
-	//{
-	//	ramSession &sess = sessions.getFilter(i);
-	//	
-	//	if (sess.isPlaying())
-	//	{
-	//		ramBeginCamera();
-	//		const ramActor &actor = sess.get();
-	//		ramDrawBasicActor(actor);
-	//		ramEndCamera();
-	//	}
-	//}
-	//
-	//
-	///// draw loaded session
-	//// ------------------
-	//if (session.isPlaying())
-	//{
-	//	ramBeginCamera();
-	//	const ramActor &actor = session.getCurrentFrame();
-	//	ramDrawBasicActor(actor);
-	//	ramEndCamera();
-	//}
+	/// draw recorded session if it's playing
+	// ------------------
+	for(int i=0; i<sessions.getNumFilters(); i++)
+	{
+		Session &sess = sessions.getFilter(i);
+		
+		if (sess.isPlaying())
+		{
+			BeginCamera();
+			const Actor &actor = sess.get();
+			DrawBasicActor(actor);
+			EndCamera();
+		}
+	}
+	
+	
+	/// draw loaded session
+	// ------------------
+	if (session.isPlaying())
+	{
+		BeginCamera();
+		const Actor &actor = session.getCurrentFrame();
+		DrawBasicActor(actor);
+		EndCamera();
+	}
 }
 
 
 
-#pragma mark - ram methods
+#pragma mark -  methods
 //--------------------------------------------------------------
-void testApp::drawActor(const ramActor &actor)
+void testApp::drawActor(const Actor &actor)
 {
-//	/// draw realtime data
-	//ofSetColor(ramColor::RED_DEEP);
-	//ramDrawBasicActor(actor);
+	/// draw realtime data
+	ofSetColor(Color::RED_DEEP);
+	DrawBasicActor(actor);
 }
 
 //--------------------------------------------------------------
-void testApp::drawRigid(const ramRigidBody &rigid)
+void testApp::drawRigid(const RigidBody &rigid)
 {
 
 }
 
 
-#pragma mark - ram Events
+#pragma mark -  Events
 //--------------------------------------------------------------
-void testApp::onActorSetup(const ramActor &actor)
+void testApp::onActorSetup(const Actor &actor)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onActorExit(const ramActor &actor)
+void testApp::onActorExit(const Actor &actor)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onRigidSetup(const ramRigidBody &rigid)
+void testApp::onRigidSetup(const RigidBody &rigid)
 {
 	
 }
 
 //--------------------------------------------------------------
-void testApp::onRigidExit(const ramRigidBody &rigid)
+void testApp::onRigidExit(const RigidBody &rigid)
 {
 	
 }
@@ -130,7 +130,7 @@ void testApp::onRigidExit(const ramRigidBody &rigid)
 //--------------------------------------------------------------
 void testApp::keyPressed(int key)
 {
-	/*switch (key)
+	switch (key)
 	{
 		case '[':
 			for(int i=0; i<sessions.getNumFilters(); i++)
@@ -174,7 +174,7 @@ void testApp::keyPressed(int key)
 			
 			try
 			{
-				coder.load("path/to/data.tsv");
+				coder.load(ofToDataPath("data.tsv"));
 				session = coder.get();
 			}
 			catch (std::exception &e)
@@ -186,7 +186,7 @@ void testApp::keyPressed(int key)
 
 		default:
 			break;
-	}*/
+	}
 }
 
 //--------------------------------------------------------------

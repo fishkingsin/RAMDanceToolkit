@@ -167,7 +167,7 @@ Actor::Actor(const NodeArray &copy)
 
 Actor::~Actor()
 {
-	dispose();
+//    dispose();
 }
 
 Actor& Actor::operator=(const NodeArray &copy)
