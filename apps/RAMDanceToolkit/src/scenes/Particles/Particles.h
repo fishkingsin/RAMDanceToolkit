@@ -76,6 +76,7 @@ public:
 			for (int i = 0; i < NA.getNumNode(); i++)
 			{
 				const rdtk::Node &node = NA.getNode(i);
+                
 				
 				for(int j=0; j<particle_amount; j++)
 					pe.emit( node.getGlobalPosition() );

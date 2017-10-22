@@ -47,7 +47,7 @@
 #include "Notation.h"
 
 #include "Extractor.h"
-
+#include "Example1.h"
 class ofApp : public rdtk::BaseApp
 {
 public:
