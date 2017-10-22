@@ -23,7 +23,10 @@ class BigBox : public rdtk::BaseScene
 	float mBoxLineWidth;
 	float mMasterBoxSize;
 	bool mUseSingleColor;
+    int mPolygonType;
 	ofFloatColor mLineColor;
+    vector<string> polygontype;
+    ofxUIRadio *radioButton;
 	
 public:
 
@@ -40,6 +43,12 @@ public:
 #ifdef RAM_GUI_SYSTEM_OFXUI
 		
 		rdtk::GetGUI().addToggle("Use single color", &mUseSingleColor);
+        
+        polygontype.push_back("Box");
+        polygontype.push_back("Sphere");
+        polygontype.push_back("Plain");
+        mPolygonType = 0;
+        radioButton = rdtk::GetGUI().addRadioGroup("Polygon", polygontype, &mPolygonType);
 		rdtk::GetGUI().addColorSelector("line color", &mLineColor);
 		rdtk::GetGUI().addSlider("Line width", 0.0, 10.0, &mBoxLineWidth);
 		rdtk::GetGUI().addSlider("Master box size", 0.0, 1000.0, &mMasterBoxSize);
@@ -140,7 +149,22 @@ public:
 				
 				ofSetLineWidth(mBoxLineWidth);
 				node.beginTransform();
-				ofDrawBox(bigBoxSize);
+				
+                switch(mPolygonType){
+                    case 0:
+                        ofDrawBox(bigBoxSize);
+                        break;
+                    case 1:
+                        ofDrawSphere(0, 0, bigBoxSize);
+                        break;
+                    case 2:
+                        ofDrawPlane(0, 0, bigBoxSize, bigBoxSize);
+                        break;
+                    default:
+                        ofDrawBox(bigBoxSize);
+                        break;
+                    
+                }
 				node.endTransform();
 				
 				ofPopStyle();

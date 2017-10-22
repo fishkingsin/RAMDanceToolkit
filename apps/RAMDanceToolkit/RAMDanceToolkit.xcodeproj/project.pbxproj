@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9E2B821F9C57AC005B7937 /* Example1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A9E2B801F9C57AC005B7937 /* Example1.cpp */; };
 		270D2D9C16E4760700D5F750 /* icon.icns in CopyFiles */ = {isa = PBXBuildFile; fileRef = 270D2D9916E475D800D5F750 /* icon.icns */; };
 		601900591644E31F001930AA /* libram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B90AB31644E21400AF2156 /* libram.a */; };
 		9A2B3F6516D325C7001CBFC9 /* Kepler.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9A2B3F5116D325C7001CBFC9 /* Kepler.cpp */; };
@@ -98,6 +99,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A9E2B801F9C57AC005B7937 /* Example1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example1.cpp; sourceTree = "<group>"; };
+		1A9E2B811F9C57AC005B7937 /* Example1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example1.h; sourceTree = "<group>"; };
 		270D2D9916E475D800D5F750 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../../resources/Icons/icon.icns; sourceTree = "<group>"; };
 		275C7EB116D644FD00024334 /* Notation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notation.h; sourceTree = "<group>"; };
 		27B8489116D34A02000D321D /* ColorGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGrid.h; sourceTree = "<group>"; };
@@ -199,6 +202,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A9E2B7F1F9C57AC005B7937 /* Example1 */ = {
+			isa = PBXGroup;
+			children = (
+				1A9E2B801F9C57AC005B7937 /* Example1.cpp */,
+				1A9E2B811F9C57AC005B7937 /* Example1.h */,
+			);
+			name = Example1;
+			path = scenes/Example1;
+			sourceTree = "<group>";
+		};
 		276D281F16D4C640005153ED /* Notation */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,6 +297,7 @@
 		9A1DE6D516AA666100A10E3F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				1A9E2B7F1F9C57AC005B7937 /* Example1 */,
 				C64C5C121F99AEC500EA4A4E /* Extractor */,
 				9AD1DE1D17269E2100C97F20 /* Helper */,
 				9A778459171847F0004ED621 /* MovingCam */,
@@ -671,6 +685,7 @@
 				D2B8DCD216D3835700210022 /* BaseConstrains.cpp in Sources */,
 				D2B8DCD316D3835700210022 /* ChainBtDynamics.cpp in Sources */,
 				D2B8DCD416D3835700210022 /* ChainBtShapeDrawer.cpp in Sources */,
+				1A9E2B821F9C57AC005B7937 /* Example1.cpp in Sources */,
 				CF2B842E1A84D1B4008A183B /* Laban.cpp in Sources */,
 				D2B8DCD516D3835700210022 /* ChainObject.cpp in Sources */,
 				D2B8DCD616D3835700210022 /* Chain.cpp in Sources */,
@@ -775,10 +790,6 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					"$(RAM_HEADER_SEARCH_PATHS)",
-				);
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
@@ -855,7 +866,7 @@
 					"-mtune=native",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)Debug";
-				RAM_HEADER_SEARCH_PATHS = "../../libs/ram/** $(OF_PATH)/addons/ofxOsc/** $(OF_PATH)/addons/ofxXmlSettings/** ../../addons/ofxUI/src/** ../../addons/ofxUITabbedCanvas/** ../../addons/ofxInteractivePrimitives/src/** ../../addons/ofxBt/libs/bullet/include/bullet ../../addons/ofxBt/src ../../addons/ofxNodeArray/src ../../addons/ofxCv/src $(OF_PATH)/addons/ofxGui/** ../../addons/ofxCv/libs/ofxCv/include/ ../../addons/ofxCv/libs/CLD/include/CLD/** $(OF_PATH)/addons/ofxOpenCV/src $(OF_PATH)/addons/ofxOpenCV/libs/opencv/include/** ../../addons/ofxDelaunay/src ../../addons/ofxDelaunay/libs/Delaunay/** ../../addons/ofxQuadWarp/src ../../addons/ramFloorQuadWarper ../../addons/ofxUITabbedCanvas ../../libs/dp/** ../../addons/ofxImGui/src/** ../../addons/ofxImGui/libs/**";
+				RAM_HEADER_SEARCH_PATHS = "../../libs/ram/** $(OF_PATH)/addons/ofxOsc/** $(OF_PATH)/addons/ofxXmlSettings/** ../../addons/ofxUI/src/** ../../addons/ofxUITabbedCanvas/** ../../addons/ofxInteractivePrimitives/src/** ../../addons/ofxBt/libs/bullet/include/bullet ../../addons/ofxBt/src ../../addons/ofxNodeArray/src ../../addons/ofxCv/src $(OF_PATH)/addons/ofxGui/** ../../addons/ofxCv/libs/ofxCv/include/ ../../addons/ofxCv/libs/CLD/include/CLD/** $(OF_PATH)/addons/ofxOpenCV/src $(OF_PATH)/addons/ofxOpenCV/libs/opencv/include/** ../../addons/ofxDelaunay/src ../../addons/ofxDelaunay/libs/Delaunay/** ../../addons/ofxQuadWarp/src ../../addons/ramFloorQuadWarper ../../addons/ofxUITabbedCanvas ../../libs/dp/** ../../../addons/ofxImGui/src/** ../../../addons/ofxImGui/libs/**";
 				SDKROOT = macosx;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = app;
@@ -879,10 +890,6 @@
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_VERSION = "";
-				HEADER_SEARCH_PATHS = (
-					"$(OF_CORE_HEADERS)",
-					"$(RAM_HEADER_SEARCH_PATHS)",
-				);
 				INFOPLIST_FILE = "openFrameworks-Info.plist";
 				INSTALL_PATH = "$(HOME)/Applications";
 				LIBRARY_SEARCH_PATHS = (
@@ -959,7 +966,7 @@
 					"-mtune=native",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				RAM_HEADER_SEARCH_PATHS = "../../libs/ram/** $(OF_PATH)/addons/ofxOsc/** $(OF_PATH)/addons/ofxXmlSettings/** ../../addons/ofxUI/src/** ../../addons/ofxUITabbedCanvas/** ../../addons/ofxInteractivePrimitives/src/** ../../addons/ofxBt/libs/bullet/include/bullet ../../addons/ofxBt/src ../../addons/ofxNodeArray/src ../../addons/ofxCv/src $(OF_PATH)/addons/ofxGui/** ../../addons/ofxCv/libs/ofxCv/include/ ../../addons/ofxCv/libs/CLD/include/CLD/** $(OF_PATH)/addons/ofxOpenCV/src $(OF_PATH)/addons/ofxOpenCV/libs/opencv/include/** ../../addons/ofxDelaunay/src ../../addons/ofxDelaunay/libs/Delaunay/** ../../addons/ofxQuadWarp/src ../../addons/ramFloorQuadWarper ../../addons/ofxUITabbedCanvas ../../libs/dp/** ../../addons/ofxImGui/src/** ../../addons/ofxImGui/libs/**";
+				RAM_HEADER_SEARCH_PATHS = "../../libs/ram/** $(OF_PATH)/addons/ofxOsc/** $(OF_PATH)/addons/ofxXmlSettings/** ../../addons/ofxUI/src/** ../../addons/ofxUITabbedCanvas/** ../../addons/ofxInteractivePrimitives/src/** ../../addons/ofxBt/libs/bullet/include/bullet ../../addons/ofxBt/src ../../addons/ofxNodeArray/src ../../addons/ofxCv/src $(OF_PATH)/addons/ofxGui/** ../../addons/ofxCv/libs/ofxCv/include/ ../../addons/ofxCv/libs/CLD/include/CLD/** $(OF_PATH)/addons/ofxOpenCV/src $(OF_PATH)/addons/ofxOpenCV/libs/opencv/include/** ../../addons/ofxDelaunay/src ../../addons/ofxDelaunay/libs/Delaunay/** ../../addons/ofxQuadWarp/src ../../addons/ramFloorQuadWarper ../../addons/ofxUITabbedCanvas ../../libs/dp/** ../../../addons/ofxImGui/src/** ../../../addons/ofxImGui/libs/**";
 				SDKROOT = macosx;
 				VALID_ARCHS = "i386 x86_64";
 				WRAPPER_EXTENSION = app;
