@@ -84,9 +84,9 @@ public:
             const rdtk::NodeArray &NA = getNodeArray(i);
             drawLine(NA);
         }
-        ofGetStyle().bFill = false;
+        ofNoFill();
         triangulation.draw();
-        ofGetStyle().bFill = true;
+        ofFill();
         rdtk::EndCamera();
     }
     void drawLine(const rdtk::NodeArray& NA)
