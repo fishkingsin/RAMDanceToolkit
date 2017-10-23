@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8D9A751F9E249E00900451 /* Delaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A8D9A691F9E249E00900451 /* Delaunay.cpp */; };
+		1A8D9A761F9E249E00900451 /* ofxDelaunay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A8D9A6E1F9E249E00900451 /* ofxDelaunay.cpp */; };
 		1A9E2B821F9C57AC005B7937 /* Example1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1A9E2B801F9C57AC005B7937 /* Example1.cpp */; };
 		270D2D9C16E4760700D5F750 /* icon.icns in CopyFiles */ = {isa = PBXBuildFile; fileRef = 270D2D9916E475D800D5F750 /* icon.icns */; };
 		601900591644E31F001930AA /* libram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60B90AB31644E21400AF2156 /* libram.a */; };
@@ -99,8 +101,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A8D9A681F9E249E00900451 /* Delaunay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Delaunay.h; sourceTree = "<group>"; };
+		1A8D9A691F9E249E00900451 /* Delaunay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Delaunay.cpp; sourceTree = "<group>"; };
+		1A8D9A6D1F9E249E00900451 /* ofxDelaunay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ofxDelaunay.h; sourceTree = "<group>"; };
+		1A8D9A6E1F9E249E00900451 /* ofxDelaunay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ofxDelaunay.cpp; sourceTree = "<group>"; };
 		1A9E2B801F9C57AC005B7937 /* Example1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Example1.cpp; sourceTree = "<group>"; };
 		1A9E2B811F9C57AC005B7937 /* Example1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example1.h; sourceTree = "<group>"; };
+		1A9E2B841F9E028D005B7937 /* Link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Link.h; sourceTree = "<group>"; };
+		1A9E2B861F9E0298005B7937 /* LineDrawing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineDrawing.h; sourceTree = "<group>"; };
 		270D2D9916E475D800D5F750 /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = ../../resources/Icons/icon.icns; sourceTree = "<group>"; };
 		275C7EB116D644FD00024334 /* Notation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Notation.h; sourceTree = "<group>"; };
 		27B8489116D34A02000D321D /* ColorGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorGrid.h; sourceTree = "<group>"; };
@@ -202,6 +210,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A8D9A521F9E249E00900451 /* ofxDelaunay */ = {
+			isa = PBXGroup;
+			children = (
+				1A8D9A661F9E249E00900451 /* libs */,
+				1A8D9A6C1F9E249E00900451 /* src */,
+			);
+			name = ofxDelaunay;
+			path = ../../../addons/ofxDelaunay;
+			sourceTree = "<group>";
+		};
+		1A8D9A661F9E249E00900451 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				1A8D9A671F9E249E00900451 /* Delaunay */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		1A8D9A671F9E249E00900451 /* Delaunay */ = {
+			isa = PBXGroup;
+			children = (
+				1A8D9A681F9E249E00900451 /* Delaunay.h */,
+				1A8D9A691F9E249E00900451 /* Delaunay.cpp */,
+			);
+			path = Delaunay;
+			sourceTree = "<group>";
+		};
+		1A8D9A6C1F9E249E00900451 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				1A8D9A6D1F9E249E00900451 /* ofxDelaunay.h */,
+				1A8D9A6E1F9E249E00900451 /* ofxDelaunay.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
 		1A9E2B7F1F9C57AC005B7937 /* Example1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +254,24 @@
 			);
 			name = Example1;
 			path = scenes/Example1;
+			sourceTree = "<group>";
+		};
+		1A9E2B831F9E028D005B7937 /* Link */ = {
+			isa = PBXGroup;
+			children = (
+				1A9E2B841F9E028D005B7937 /* Link.h */,
+			);
+			name = Link;
+			path = scenes/Link;
+			sourceTree = "<group>";
+		};
+		1A9E2B851F9E0298005B7937 /* Line */ = {
+			isa = PBXGroup;
+			children = (
+				1A9E2B861F9E0298005B7937 /* LineDrawing.h */,
+			);
+			name = Line;
+			path = scenes/Line;
 			sourceTree = "<group>";
 		};
 		276D281F16D4C640005153ED /* Notation */ = {
@@ -297,30 +359,32 @@
 		9A1DE6D516AA666100A10E3F /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
-				1A9E2B7F1F9C57AC005B7937 /* Example1 */,
-				C64C5C121F99AEC500EA4A4E /* Extractor */,
-				9AD1DE1D17269E2100C97F20 /* Helper */,
-				9A778459171847F0004ED621 /* MovingCam */,
 				9A2B3F3F16D325C7001CBFC9 /* Abacus */,
 				9A2B3F4116D325C7001CBFC9 /* BasicActor */,
 				9A2B3F4316D325C7001CBFC9 /* BigBox */,
 				D2B8DCC716D3835700210022 /* Chain */,
 				27B8489016D34A02000D321D /* ColorGrid */,
 				9A2B3F4516D325C7001CBFC9 /* Donuts */,
+				1A9E2B7F1F9C57AC005B7937 /* Example1 */,
 				9A2B3F4716D325C7001CBFC9 /* Expansion */,
+				C64C5C121F99AEC500EA4A4E /* Extractor */,
 				27B8489616D35D17000D321D /* FourPoints */,
 				9A2B3F4916D325C7001CBFC9 /* Future */,
+				60E559B016D3366A00051FE9 /* HastyChase */,
+				9AD1DE1D17269E2100C97F20 /* Helper */,
 				9A2B3F4E16D325C7001CBFC9 /* Kepler */,
 				27E36A0016D4937000729344 /* Laban */,
+				1A9E2B831F9E028D005B7937 /* Link */,
 				9A2B3F5916D325C7001CBFC9 /* LineDrawing */,
+				1A9E2B851F9E0298005B7937 /* Line */,
 				27FD3B6A16D387E800C9EAC6 /* Monster */,
+				9A778459171847F0004ED621 /* MovingCam */,
 				276D281F16D4C640005153ED /* Notation */,
 				9A2B3F5B16D325C7001CBFC9 /* Particles */,
 				9A2B3F5E16D325C7001CBFC9 /* SoundCube */,
 				9A2B3F6016D325C7001CBFC9 /* Stamp */,
 				27B8489216D35466000D321D /* ThreePoints */,
 				9A2B3F6216D325C7001CBFC9 /* UpsideDown */,
-				60E559B016D3366A00051FE9 /* HastyChase */,
 			);
 			name = Scenes;
 			sourceTree = "<group>";
@@ -463,6 +527,7 @@
 		BB4B014C10F69532006C3DED /* addons */ = {
 			isa = PBXGroup;
 			children = (
+				1A8D9A521F9E249E00900451 /* ofxDelaunay */,
 			);
 			name = addons;
 			sourceTree = "<group>";
@@ -681,6 +746,7 @@
 				CF2B842C1A84CCBD008A183B /* SphereMesh.cpp in Sources */,
 				9A2B3F6616D325C7001CBFC9 /* KeplerBtDynamics.cpp in Sources */,
 				9A2B3F6716D325C7001CBFC9 /* KeplerBtShapeDrawer.cpp in Sources */,
+				1A8D9A761F9E249E00900451 /* ofxDelaunay.cpp in Sources */,
 				9A2B3F6816D325C7001CBFC9 /* KeplerCube.cpp in Sources */,
 				D2B8DCD216D3835700210022 /* BaseConstrains.cpp in Sources */,
 				D2B8DCD316D3835700210022 /* ChainBtDynamics.cpp in Sources */,
@@ -689,6 +755,7 @@
 				CF2B842E1A84D1B4008A183B /* Laban.cpp in Sources */,
 				D2B8DCD516D3835700210022 /* ChainObject.cpp in Sources */,
 				D2B8DCD616D3835700210022 /* Chain.cpp in Sources */,
+				1A8D9A751F9E249E00900451 /* Delaunay.cpp in Sources */,
 				9AD1DE2017269E2100C97F20 /* btPicker.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
