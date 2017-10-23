@@ -59,6 +59,7 @@ void ofApp::setup()
     sceneManager.addScene<Kepler>();
     sceneManager.addScene<Chain>();
 #endif
+    sceneManager.addScene<Link>();
     sceneManager.addScene<Example1>();
 	
 }

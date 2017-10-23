@@ -1,0 +1,2273 @@
+<Widget>
+    <Kind>17</Kind>
+    <Name>Actors</Name>
+    <Value>1</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Actors</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Presets</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Preferences</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Extractor</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Extractor</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>MovingCam</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable MovingCam</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Line</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Line</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Big Box</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Big Box</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Future</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Future</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Donuts</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Donuts</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Stamp</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Stamp</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Expansion</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Expansion</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Particles</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Particles</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Abacus</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Abacus</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>SoundCube</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable SoundCube</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Upside Down</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Upside Down</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Hasty Chase</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Hasty Chase</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Color Grid</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Color Grid</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Three Points</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Three Points</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Four Points</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Four Points</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Monster</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Monster</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Laban</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Laban</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Notation</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Notation</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Link</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Link</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>17</Kind>
+    <Name>Example1</Name>
+    <Value>0</Value>
+</Widget>
+<Widget>
+    <Kind>2</Kind>
+    <Name>Enable Example1</Name>
+    <Value>0</Value>
+</Widget>
+<Presets>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Low</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>High</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Overhead</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Enable Node Cam</Name>
+        <Value>0</Value>
+    </Widget>
+</Presets>
+<Preferences>
+    <Widget>
+        <Kind>17</Kind>
+        <Name>Fullscreen</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>17</Kind>
+        <Name>Use shadows</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>NONE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>GRID_LINES</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>PLANE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>CHECKER_PATTERN</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Floor size</Name>
+        <Value>600.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Floor grid Size</Name>
+        <Value>50.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Red</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Green</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Blue</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+</Preferences>
+<Extractor />
+<MovingCam>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Enable Camera</Name>
+        <Value>0</Value>
+    </Widget>
+</MovingCam>
+<Line>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Auto Random change time</Name>
+        <Value>60.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Line 0</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line R</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line G</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line B</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>line_width</Name>
+        <Value>2.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>curve</Name>
+        <Value>250.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>spiral_radius</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>spiral_num_rotate</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>noise_scale</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>noise_freq</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>extend from</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>extend to</Name>
+        <Value>260.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Line 1</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line R</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line G</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line B</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>line_width</Name>
+        <Value>2.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>curve</Name>
+        <Value>138.000015259</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>spiral_radius</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>spiral_num_rotate</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>noise_scale</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>noise_freq</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>extend from</Name>
+        <Value>360.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>extend to</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Line 2</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line R</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line G</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line B</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>line_width</Name>
+        <Value>2.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>curve</Name>
+        <Value>250.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>spiral_radius</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>spiral_num_rotate</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>noise_scale</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>noise_freq</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>extend from</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>extend to</Name>
+        <Value>260.000000000</Value>
+    </Widget>
+</Line>
+<BigBox>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Use single color</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Box</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Sphere</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Plain</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>R</Name>
+        <Value>0.839999974</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>G</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>B</Name>
+        <Value>0.419000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line width</Name>
+        <Value>2.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Sphere Resolution</Name>
+        <Value>16.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Master box size</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>HIPS</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>ABDOMEN</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>CHEST</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>NECK</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>HEAD</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_HIP</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_KNEE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_ANKLE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_TOE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_HIP</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_KNEE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_ANKLE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_TOE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_COLLAR</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_SHOULDER</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_ELBOW</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_WRIST</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_HAND</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_COLLAR</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_SHOULDER</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_ELBOW</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_WRIST</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_HAND</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+</BigBox>
+<Future>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Draw line from actor to ghost</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Distance</Name>
+        <Value>150.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Speed</Name>
+        <Value>27.000000000</Value>
+    </Widget>
+</Future>
+<Donuts>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Scale</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Position: X</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Position: Z</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Duplicate</Name>
+        <Value>20.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Radius</Name>
+        <Value>110.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Box Size</Name>
+        <Value>3.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show Actor</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Toggle All</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>HIPS</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>ABDOMEN</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>CHEST</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>NECK</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>HEAD</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_HIP</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_KNEE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_ANKLE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_TOE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_HIP</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_KNEE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_ANKLE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_TOE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_COLLAR</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_SHOULDER</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_ELBOW</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_WRIST</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_HAND</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_COLLAR</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_SHOULDER</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_ELBOW</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_WRIST</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_HAND</Name>
+        <Value>1</Value>
+    </Widget>
+</Donuts>
+<Stamp>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Idle Timer</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Recording Span</Name>
+        <Value>5.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show Actor</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>R</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>G</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>B</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line width</Name>
+        <Value>0.000000002</Value>
+    </Widget>
+</Stamp>
+<Expansion>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show Joint name</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show Box</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show Axis</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show Line</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>R</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>G</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>B</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Expasion Ratio</Name>
+        <Value>1.500000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Box size</Name>
+        <Value>10.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Big Box ratio</Name>
+        <Value>5.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Toggle box size</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show All</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 0</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>HIPS</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 1</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>ABDOMEN</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 2</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>CHEST</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 3</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>NECK</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 4</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>HEAD</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 5</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_HIP</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 6</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_KNEE</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 7</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_ANKLE</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 8</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_TOE</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size 9</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_HIP</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size10</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_KNEE</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size11</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_ANKLE</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size12</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_TOE</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size13</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_COLLAR</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size14</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_SHOULDER</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size15</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_ELBOW</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size16</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_WRIST</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size17</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_HAND</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size18</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_COLLAR</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size19</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_SHOULDER</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size20</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_ELBOW</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size21</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_WRIST</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Size22</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_HAND</Name>
+        <Value>1</Value>
+    </Widget>
+</Expansion>
+<Particles>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Change emit position</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Amount</Name>
+        <Value>4.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Life</Name>
+        <Value>2.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Velocity</Name>
+        <Value>2.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Gravity</Name>
+        <Value>0.000100005</Value>
+    </Widget>
+</Particles>
+<Abacus />
+<SoundCube>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>line width</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>fade</Name>
+        <Value>0.500000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>show box</Name>
+        <Value>1</Value>
+    </Widget>
+</SoundCube>
+<UpsideDown>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>ANGLE X</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>ANGLE Y</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>ANGLE Z</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>AUTO ROTATE X</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>AUTO ROTATE Y</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>AUTO ROTATE Z</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>AUTO ROTATE SPEED X</Name>
+        <Value>1.000000238</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>AUTO ROTATE SPEED Y</Name>
+        <Value>1.000000238</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>AUTO ROTATE SPEED Z</Name>
+        <Value>1.000000238</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>OFFSET</Name>
+        <Value>-2.999997139</Value>
+    </Widget>
+</UpsideDown>
+<HastyChase>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>buffer_time</Name>
+        <Value>3600.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>rate</Name>
+        <Value>1.500000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>draw line</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>show box</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>fill chaser</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>R</Name>
+        <Value>0.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>G</Name>
+        <Value>0.600000024</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>B</Name>
+        <Value>0.800000072</Value>
+    </Widget>
+</HastyChase>
+<ColorGrid>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Use RGB/HSB</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Buffer size</Name>
+        <Value>1024.000000000</Value>
+    </Widget>
+</ColorGrid>
+<ThreePoints>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show spheres</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show rects</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show circle</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Inverted spheres</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show circle bisector</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show center circles</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Point size</Name>
+        <Value>3.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Cross length</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Rect radius</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Max invert radius</Name>
+        <Value>2000.000122070</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Circle resolution</Name>
+        <Value>30.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>HIPS</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>ABDOMEN</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>CHEST</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>NECK</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>HEAD</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_HIP</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_KNEE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_ANKLE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_TOE</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_HIP</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_KNEE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_ANKLE</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_TOE</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_COLLAR</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_SHOULDER</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_ELBOW</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_WRIST</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>LEFT_HAND</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_COLLAR</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_SHOULDER</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_ELBOW</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_WRIST</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>RIGHT_HAND</Name>
+        <Value>0</Value>
+    </Widget>
+</ThreePoints>
+<FourPoints>
+    <Widget>
+        <Kind>17</Kind>
+        <Name>Show four point sphere</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>17</Kind>
+        <Name>Show four point twist</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Twist resolution</Name>
+        <Value>20.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Twist extension width</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Twist extension height</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(0,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(1,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(2,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(3,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(4,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(0,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(1,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(2,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(3,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(4,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(0,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(1,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(2,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(3,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(4,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(0,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(1,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(2,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(3,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(4,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(0,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(1,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(2,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(3,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.1(4,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(0,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(1,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(2,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(3,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(4,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(0,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(1,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(2,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(3,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(4,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(0,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(1,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(2,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(3,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(4,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(0,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(1,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(2,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(3,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(4,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(0,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(1,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(2,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(3,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.2(4,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(0,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(1,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(2,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(3,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(4,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(0,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(1,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(2,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(3,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(4,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(0,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(1,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(2,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(3,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(4,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(0,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(1,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(2,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(3,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(4,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(0,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(1,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(2,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(3,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.3(4,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(0,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(1,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(2,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(3,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(4,0)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(0,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(1,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(2,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(3,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(4,1)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(0,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(1,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(2,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(3,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(4,2)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(0,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(1,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(2,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(3,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(4,3)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(0,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(1,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(2,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(3,4)</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>4p.4(4,4)</Name>
+        <Value>0</Value>
+    </Widget>
+</FourPoints>
+<Monster>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Min scale</Name>
+        <Value>0.500000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Max scale</Name>
+        <Value>2.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Randomization amount</Name>
+        <Value>0.500000000</Value>
+    </Widget>
+</Monster>
+<Laban>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Fade out</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Only Limbs</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Threshold</Name>
+        <Value>0.200000003</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show lines</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line width</Name>
+        <Value>3.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line length</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Show planes</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Scale</Name>
+        <Value>20.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Ticks</Name>
+        <Value>3.000000000</Value>
+    </Widget>
+</Laban>
+<Notation>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Only limbs</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Draw debug</Name>
+        <Value>0</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>History fade out</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Mark fade out</Name>
+        <Value>15.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Threshold</Name>
+        <Value>0.300000012</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Center lerp rate</Name>
+        <Value>0.100000001</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Normal lerp rate</Name>
+        <Value>0.100000001</Value>
+    </Widget>
+</Notation>
+<Link>
+    <Widget>
+        <Kind>2</Kind>
+        <Name>Use single color</Name>
+        <Value>1</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>R</Name>
+        <Value>0.839999974</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>G</Name>
+        <Value>1.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>B</Name>
+        <Value>0.419000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Line width</Name>
+        <Value>2.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>Master box size</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>HIPS</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>ABDOMEN</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>CHEST</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>NECK</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>HEAD</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_HIP</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_KNEE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_ANKLE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_TOE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_HIP</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_KNEE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_ANKLE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_TOE</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_COLLAR</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_SHOULDER</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_ELBOW</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_WRIST</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>LEFT_HAND</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_COLLAR</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_SHOULDER</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_ELBOW</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_WRIST</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+    <Widget>
+        <Kind>4</Kind>
+        <Name>RIGHT_HAND</Name>
+        <Value>300.000000000</Value>
+    </Widget>
+</Link>
+<Example1 />
