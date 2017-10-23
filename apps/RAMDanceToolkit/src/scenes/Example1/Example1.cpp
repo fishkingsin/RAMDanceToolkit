@@ -132,7 +132,7 @@ class Trackers
 {
 public:
     
-    vector<Tracker*> tracker;
+    vector<ofPtr<Tracker>> tracker;
     
     //vector<Particle> particles;
     //ofVboMesh billboards;
@@ -148,12 +148,14 @@ public:
     {
         {
             if(tracker.size() == nodeArray.getNumNode()){
-            for (int i = 0; i < nodeArray.getNumNode(); i++)
-            {
-                tracker[i]->update(nodeArray.getNode(i));
-//                tracker[i]->update();//particles);
-     
-            }
+                for (int i = 0; i < nodeArray.getNumNode(); i++)
+                {
+                    tracker[i]->update(nodeArray.getNode(i));
+    //                tracker[i]->update();//particles);
+         
+                }
+            }else{
+                tracker.push_back(ofPtr<Tracker>(new Tracker));
             }
         }
      
