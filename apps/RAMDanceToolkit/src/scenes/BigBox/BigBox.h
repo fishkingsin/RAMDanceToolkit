@@ -22,15 +22,17 @@ class BigBox : public rdtk::BaseScene
 	vector<float> mSizeArray;
 	float mBoxLineWidth;
 	float mMasterBoxSize;
+    float mSphereRes;
 	bool mUseSingleColor;
     int mPolygonType;
 	ofFloatColor mLineColor;
     vector<string> polygontype;
     ofxUIRadio *radioButton;
+    
 	
 public:
 
-	BigBox() : mBoxLineWidth(2.0), mMasterBoxSize(300.0), mUseSingleColor(true), mLineColor(0.840, 1.000, 0.419)
+	BigBox() : mBoxLineWidth(2.0), mMasterBoxSize(300.0), mUseSingleColor(true), mLineColor(0.840, 1.000, 0.419),mSphereRes(16),mPolygonType(0)
 	{
 		mSizeArray.clear();
 		mSizeArray.resize(rdtk::Actor::NUM_JOINTS);
@@ -51,6 +53,7 @@ public:
         radioButton = rdtk::GetGUI().addRadioGroup("Polygon", polygontype, &mPolygonType);
 		rdtk::GetGUI().addColorSelector("line color", &mLineColor);
 		rdtk::GetGUI().addSlider("Line width", 0.0, 10.0, &mBoxLineWidth);
+        rdtk::GetGUI().addSlider("Sphere Resolution", 0.0, 32.0, &mSphereRes);
 		rdtk::GetGUI().addSlider("Master box size", 0.0, 1000.0, &mMasterBoxSize);
 
 		for (int i=0; i<rdtk::Actor::NUM_JOINTS; i++)
@@ -69,7 +72,10 @@ public:
 		{
 			for (int i=0; i<mSizeArray.size(); i++)
 				mSizeArray.at(i) = mMasterBoxSize;
-		}
+        }else if (name == "Sphere Resolution"){
+            ofSetSphereResolution(mSphereRes);
+        }
+        
 	}
 	
 	void drawImGui()

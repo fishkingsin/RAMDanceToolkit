@@ -8,7 +8,7 @@
 #pragma once
 
 #include "ramMain.h"
-
+#include "ofxTwistedRibbon.h"
 
 class Example1 : public rdtk::BaseScene
 {
@@ -24,5 +24,5 @@ public:
     void drawActor(const rdtk::Actor &actor);
     void drawRigid(rdtk::RigidBody &rigid);
     
-
+    float mglobalThickness;
 };

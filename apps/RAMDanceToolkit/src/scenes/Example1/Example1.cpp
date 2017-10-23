@@ -14,6 +14,7 @@ public:
     deque<ofVec3f> samples;
     //Ribbon ribbon;
     ofMesh rmesh;
+    float globalThickness;
     Tracker()
     {
         //ribbon.setup();
@@ -24,22 +25,25 @@ public:
             rmesh.addVertex(ofVec3f(0,0,-i*50));
             float revertIndex = RIBBON_SIZE-i;
             float c  = (float)revertIndex/RIBBON_SIZE;
-            rmesh.addColor(ofFloatColor(0,(float)revertIndex/RIBBON_SIZE));
-            rmesh.addColor(ofFloatColor(0,(float)revertIndex/RIBBON_SIZE));
+            
+            rmesh.addColor(ofFloatColor(c,1.0,1.0,(float)revertIndex/RIBBON_SIZE));
+            rmesh.addColor(ofFloatColor(c,1.0,1.0,(float)revertIndex/RIBBON_SIZE));
+
         }
     }
     
-    void update(rdtk::Node &node)
+    void update(const rdtk::Node &node)
     {
         //ribbon.update(joint->getPosition());
         // update sample
         {
-            samples.push_front(node.getPosition());
+            samples.push_front(node.getGlobalPosition());
             while (samples.size() > RIBBON_SIZE)
                 samples.pop_back();
         }
-        float times = sin(ofGetElapsedTimef()*0.0001);
-        float timec = cos(ofGetElapsedTimef()*0.0001);
+        
+//        float times = sin(ofGetElapsedTimef()*0.0001);
+//        float timec = cos(ofGetElapsedTimef()*0.0001);
         for(int i = 0; i < samples.size(); i++){
             ofVec3f thisPoint;
             ofVec3f nextPoint;
@@ -49,10 +53,10 @@ public:
                 
                 thisPoint = samples[i-1];
                 nextPoint = samples[i];
-                thisPoint.z+=timec*i*10;
-                nextPoint.z+=timec*i*10;
-                thisPoint.x+=times*i*10;
-                nextPoint.x+=times*i*10;
+//                thisPoint.z+=timec*i*10;
+//                nextPoint.z+=timec*i*10;
+//                thisPoint.x+=times*i*10;
+//                nextPoint.x+=times*i*10;
             }
             
             //get the direction from one to the next.
@@ -64,7 +68,7 @@ public:
             
             //get the normalized direction. normalized vectors always have a length of one
             //and are really useful for representing directions as opposed to something with length
-            ofVec3f unitDirection = direction.normalized();
+            ofVec3f unitDirection = direction.normalize();
             
             //find both directions to the left and to the right
             ofVec3f toTheLeft = unitDirection.getRotated(-90, ofVec3f(0,1,0));
@@ -73,7 +77,7 @@ public:
             //use the map function to determine the distance.
             //the longer the distance, the narrower the line.
             //this makes it look a bit like brush strokes
-            float thickness = ofMap(sin(distance/direction.length()), 0, 1, 10, 20, true);
+            float thickness = ofMap(sin(distance/direction.length()), 0, 10, 5, globalThickness, true)*(((samples.size()-i)*1.0f)/samples.size());
             
             //calculate the points to the left and to the right
             //by extending the current point in the direction of left/right by the length
@@ -113,8 +117,8 @@ public:
             if (v0.squareDistance(v1) == 0) continue;
             if (v1.squareDistance(v2) == 0) continue;
             
-            const ofVec3f d0 = (v0 - v1).normalized();
-            const ofVec3f d1 = (v1 - v2).normalized();
+            const ofVec3f d0 = (v0 - v1).normalize();
+            const ofVec3f d1 = (v1 - v2).normalize();
             
             v += (d0).dot(d1);
         }
@@ -125,6 +129,14 @@ public:
     void draw()
     {
         rmesh.draw();
+        
+//        ofPushStyle();
+//        ofNoFill();
+//        for(int i = 0; i < samples.size(); i++){
+//            ofDrawBox(samples[i], 10);
+//
+//        }
+//        ofPopStyle();
     }
 };
 
@@ -132,30 +144,41 @@ class Trackers
 {
 public:
     
-    vector<ofPtr<Tracker>> tracker;
-    
+    vector<ofPtr<ofxTwistedRibbon>> ribbons;
+    int hue = 0;
     //vector<Particle> particles;
     //ofVboMesh billboards;
     //int particle_index;
     
-    void setup()
+    Trackers()
     {
-        
+        hue = ofRandom(255);
         
     }
     
-    void update(rdtk::NodeArray &nodeArray)
+    void update(const rdtk::NodeArray& nodeArray, float globalThickness)
     {
         {
-            if(tracker.size() == nodeArray.getNumNode()){
+            if(ribbons.size() == nodeArray.getNumNode()){
                 for (int i = 0; i < nodeArray.getNumNode(); i++)
                 {
-                    tracker[i]->update(nodeArray.getNode(i));
+//                    ribbons[i]->globalThickness = globalThickness;
+                    if(ribbons[i]->points.size()==0){
+                        ribbons[i]->update(nodeArray.getNode(i).getGlobalPosition());
+                    }
+                    if(ribbons[i]->points.back().distance(nodeArray.getNode(i).getGlobalPosition())>2 ){
+                        ribbons[i]->update(nodeArray.getNode(i).getGlobalPosition());
+                    }
+                    if(ribbons[i]->points.size()>50){
+                        ribbons[i]->points.pop_front();
+                    }
     //                tracker[i]->update();//particles);
          
                 }
             }else{
-                tracker.push_back(ofPtr<Tracker>(new Tracker));
+                ofPtr<ofxTwistedRibbon> ribbon = ofPtr<ofxTwistedRibbon>(new ofxTwistedRibbon);
+                ribbon->color = ofColor::fromHsb(hue, 255, ofRandom(150,255),128);
+                ribbons.push_back(ribbon);
             }
         }
      
@@ -163,10 +186,10 @@ public:
     
     void draw()
     {
-   
-        for (int i = 0; i < tracker.size(); i++)
+        ofEnableAlphaBlending();
+        for (int i = 0; i < ribbons.size(); i++)
         {
-            tracker[i]->draw();
+            ribbons[i]->draw();
         }
     }
 };
@@ -174,7 +197,7 @@ map<string,ofPtr<Trackers>> trackers;
 void Example1::setupControlPanel()
 {
     ofxUICanvas* panel = rdtk::GetGUI().getCurrentUIContext();
-//    panel->addSlider("Fade out", 0, 2, &maxExample1MomentLife, 300, 20);
+    panel->addSlider("thickness", 1, 100, &mglobalThickness);
 //    panel->addToggle("Only Limbs", &onlyLimbs, 20, 20);
 //    panel->addSlider("Threshold", 0, .5, &threshold, 300, 20);
 //    panel->addToggle("Show lines", &showLines, 20, 20);
@@ -205,10 +228,14 @@ void Example1::setup()
 
 void Example1::update()
 {
+    for(int i=0; i<getNumNodeArray(); i++)
+    {
+        const rdtk::NodeArray &NA = getNodeArray(i);
+    }
     vector<string> name = getNodeArrayNames();
     for (int n = 0; n < name.size(); n++){
         if(trackers.find(name[n]) != trackers.end()){
-            trackers[name[n]]->update(getNodeArray(name[n]));
+            trackers[name[n]]->update(getNodeArray(name[n]),mglobalThickness);
         }else{
             trackers[name[n]] = ofPtr<Trackers>(new Trackers);
         }
