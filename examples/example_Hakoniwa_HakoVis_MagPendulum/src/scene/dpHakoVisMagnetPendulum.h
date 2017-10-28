@@ -10,8 +10,8 @@
 #define RAMDanceToolkit_doHakoVisRecordGrid_h
 
 #include "dpRecordBufferCircle.h"
-
-class dpHakoVisMagnetPendulum : public ramBaseScene{
+using namespace rdtk;
+class dpHakoVisMagnetPendulum : public BaseScene{
 public:
     
     string getName() const{return "dpVisMagPendulum";}
@@ -40,7 +40,7 @@ private:
     
     ofVec2f mPos;
     
-    ramOscReceiveTag mReceiver;
+    OscReceiveTag mReceiver;
     
 };
 
